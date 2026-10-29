@@ -1,0 +1,29 @@
+﻿{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "astra-social-7dfd1",
+          "appId": "1:226070790602:android:53d63530cb8a793addcf33",
+          "fileOutput": "android/app/google-services.json"
+        }
+      }
+    }
+  },
+  "dart": {
+    "lib/firebase_options.dart": {
+      "projectId": "astra-social-7dfd1",
+      "configurations": {
+        "android": "1:226070790602:android:53d63530cb8a793addcf33",
+        "ios": "1:226070790602:ios:1d44e2d2acc5018bddcf33",
+        "macos": "1:226070790602:ios:1d44e2d2acc5018bddcf33",
+        "web": "1:226070790602:web:1a7ae39363eaccbfddcf33",
+        "windows": "1:226070790602:web:42651e902f122c32ddcf33"
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

@@ -1,0 +1,47 @@
+name: ration_tracker
+description: "Ration Tracker App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  # Firebase
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.6
+
+  # File handling
+  file_picker: ^6.1.1
+  csv: ^5.1.1
+  path_provider: ^2.1.1
+
+  # PDF Export
+  pdf: ^3.10.7
+
+  # URL launcher
+  url_launcher: ^6.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/NotoSansDevanagari-Regular.ttf
+    - assets/fonts/NotoSansDevanagari-Bold.ttf
+
+  fonts:
+    - family: NotoSansDevanagari
+      fonts:
+        - asset: assets/fonts/NotoSansDevanagari-Regular.ttf
+        - asset: assets/fonts/NotoSansDevanagari-Bold.ttf
+          weight: 700

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "226070790602",
+    "project_id": "astra-social-7dfd1",
+    "storage_bucket": "astra-social-7dfd1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226070790602:android:53d63530cb8a793addcf33",
+        "android_client_info": {
+          "package_name": "com.aepds.aepds_ration_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9cwuFAarJGWOKPc5abq5x_aU5XyRVIiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
